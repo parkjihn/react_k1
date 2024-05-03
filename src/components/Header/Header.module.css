@@ -1,0 +1,35 @@
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35%;
+  padding: 20px;
+  background-color: #f4f9e1;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.headerList ul {
+  list-style: none;
+  display: flex;
+  gap: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.headerList li {
+  cursor: pointer;
+}
+
+.headerButton button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
